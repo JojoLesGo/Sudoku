@@ -14,9 +14,6 @@ public class InGame extends AppCompatActivity {
 
         Intent intent = getIntent(); // Get the intent which started the activity
         final String difficulty = intent.getStringExtra("SELECTED_DIFFICULTY"); // Use the key in the intent extra to retrieve the string
-        final TextView difficultyTextView = findViewById(R.id.difficulty_view);
-
-        difficultyTextView.setText(difficulty);
 
     }
 
